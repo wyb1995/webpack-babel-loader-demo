@@ -1,7 +1,6 @@
-Webpack Config File Demo
-========================
+Webpack ES6 import/export Demo
+===============================
 
-Put all settings in `webpack.config.js`
 
 ```
 npm install -g webpack
@@ -10,3 +9,5 @@ webpack
 ```
 
 Then open `index.html` in your browser.
+
+You will see the `import/export` syntax be converted to normal javascript code by `babel`.

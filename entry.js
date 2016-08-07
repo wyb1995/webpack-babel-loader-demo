@@ -1,3 +1,4 @@
-require('./index.css');
+import Core from './core';
 
-document.write('it works!');
+const name = new Core().name();
+document.write(name);
